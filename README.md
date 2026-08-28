@@ -5,7 +5,6 @@ Service scripts for [Unshackle](https://github.com/unshackle-dl/unshackle).
 <details closed> <summary><strong>1. Remote Services</strong></summary>
 
 ### 1. Add Remote Service API
-
 Add:
 ```bash
 remote_services:
@@ -16,17 +15,16 @@ remote_services:
 ```
 into ``\unshackle\unshackle\unshackle.yaml``
 
-## 2. Verify Services:
+### 2. Verify Services:
 Run ``uv run unshackle dl --remote -h``
 
-## 3. Run
+### 3. Run
 Run with ``uv run unshackle dl --remote ...``
 
 </details>
 <details closed> <summary><strong>2. Clone Repository</strong></summary>
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/n0stal6ic/unshackle-services.git
 cd unshackle-services
@@ -45,7 +43,6 @@ cp -r ./* ~/unshackle/unshackle/services/
 ```
 
 ### Install Location:
-
 ```bash
 unshackle/
 └── unshackle/
