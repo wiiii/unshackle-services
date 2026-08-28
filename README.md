@@ -1,6 +1,58 @@
 # unshackle-services
 Service scripts for [Unshackle](https://github.com/unshackle-dl/unshackle).
 
+## Installation
+<details closed> <summary><strong>1. Remote Services</strong></summary>
+
+### 1. Add Remote Service API
+
+Add:
+```bash
+remote_services:
+  unshackle:
+    url: https://services.nostalgic.cc
+    api_key: "free"
+    server_cdm: false
+```
+into ``\unshackle\unshackle\unshackle.yaml``
+
+## 2. Verify Services:
+Run ``uv run unshackle dl --remote -h``
+
+## 3. Run
+Run with ``uv run unshackle dl --remote ...``
+
+</details>
+<details closed> <summary><strong>2. Clone Repository</strong></summary>
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/n0stal6ic/unshackle-services.git
+cd unshackle-services
+```
+
+### 2. Copy/Paste the service(s)
+
+### Windows:
+```batch
+xcopy ".\*" "C:\path\to\unshackle\unshackle\services\" /E /I /H /Y
+```
+
+### Linux:
+```bash
+cp -r ./* ~/unshackle/unshackle/services/
+```
+
+### Install Location:
+
+```bash
+unshackle/
+└── unshackle/
+    └── services/
+```
+</details>
+
 ## Services
 
 | Tag | Service | Security | Authorization |
